@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Luke's Blog</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <div class="logo">
+          <a href="#"><span>St</span>Luke</a>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end text-bg-dark"
+          tabindex="-1"
+          id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"></h5>
+            <button
+              type="button"
+              class="btn-close btn-close-white btn-close-by-me"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >My Blog</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="about.html"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#contact"
+                  >Contact</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="landing.html"
+                  >Logout</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- About me -->
+    <section class="about">
+      <img
+        src="https://avatars.githubusercontent.com/u/104220384?s=400&u=f0df270d45904327e1c98acda203b96560b1802b&v=4"
+        alt=""
+      />
+
+      <div class="about-text">
+        <h2>About Me</h2>
+
+        <p>
+          I'm nothing more than normal guy who found a way to make a living
+          online. In a single sentence, that's how I'd describe myself. When I
+          started my online journey in 2014 as a side-hustle, I had doubts that
+          I'd succeed. I failed countless times, I created some REALLY dumb
+          blogs, I had an uncomfortable addiction to shiny object syndrome, and
+          I had a very tough time making money. But by 2021, I was able to
+          achieve a seemingly impossible achievement of profiting over $1
+          Million Dollars from my online business. I'm not telling you this to
+          brag. Even I can't believe that I've been able to have this level of
+          success. I'm also not here to tell you how easy it was, because
+          running a business of any type isn't easy. I'm telling you this to
+          help you understand that it is possible.
+        </p>
+      </div>
+    </section>
+
+    <!-- Subscribe Section -->
+    <section id="contact" class="subscribe padd-15">
+      <div class="subscribe-writeup padd-15">
+        <h2>HAVE I MISSED ANYTHING GOOD LATELY? LET ME KNOW</h2>
+      </div>
+
+      <div class="contact-form">
+        <div class="row">
+          <div class="form-item col-6 padd-15">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Name" />
+            </div>
+          </div>
+          <div class="form-item col-6 padd-15">
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Email" />
+            </div>
+          </div>
+          <div class="form-item col-12 padd-15">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Subject" />
+            </div>
+          </div>
+          <div class="form-item col-12 padd-15">
+            <div class="form-group">
+              <textarea type="text" class="form-control" placeholder="Message">
+              </textarea>
+            </div>
+            <div class="form-item col-12 padd-15">
+              <button type="submit" class="btn">Send Message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-light text-center" style="height: 100px !important">
+      <!-- Copyright -->
+      <div style="background-color: rgba(234, 227, 227, 0.2); padding: 30px">
+        © 2022 Copyright:
+        <a class="text-light" href="index.html" style="padding: 30px 0 30px 0">
+          My Movie Blog</a
+        >
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="js/login.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

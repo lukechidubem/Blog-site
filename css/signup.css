@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,500;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;1,900&family=Poppins:ital,wght@0,300;0,700;1,100;1,400;1,700&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(79, 109, 88);
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: black;
+}
+
+.login-form {
+  background-color: cornflowerblue;
+  border-radius: 10px;
+  padding: 30px;
+  justify-content: center;
+}
+
+.login-form h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.login-form a {
+  text-decoration: none;
+  color: aqua;
+}
+
+.form-control2 {
+  position: relative;
+  margin: 30px 0 50px;
+  width: 300px;
+}
+
+.form-control2 input {
+  background-color: inherit;
+  border: 0;
+  border-bottom: 3px solid white;
+  display: block;
+  width: 100%;
+  outline: none;
+  color: white;
+  padding: 10px 0;
+}
+
+.form-control2 input:focus {
+  border-bottom-color: lightblue;
+  outline: none;
+}
+
+.form-control2 label {
+  position: absolute;
+  top: 15%;
+  left: 0;
+}
+
+.btn {
+  width: 100%;
+  padding: 15px;
+  background-color: rgb(67, 117, 182);
+  border-radius: 16px;
+  font-size: 18px;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+}
+
+.btn:active {
+  transform: scale(1);
+}
+
+.login-form p {
+  margin-top: 30px;
+}
+
+.form-control2 label span {
+  display: inline-block;
+  min-width: 5px;
+  transition: 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  margin-bottom: 15px;
+}
+
+.form-control2 input:focus + label span {
+  transform: translateY(-30px);
+  color: lightblue;
+}
